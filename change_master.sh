@@ -14,5 +14,7 @@ if [ "$input" == "y" ]
 then
 	git push --delete origin master
 	git remote prune origin
+else
+	exit 2
 fi
 
